@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import studio from '../assets/studio.png';
 
 // Use public folder images
 export const GALLERY_ITEMS = [
@@ -8,28 +7,28 @@ export const GALLERY_ITEMS = [
     id: 1,
     title: 'Recording Studio',
     category: 'studio',
-    image: studio,
+    image: '/studio.jpg',
     description: 'Professional recording setup'
   },
   {
     id: 2,
     title: 'Keyboard Class',
     category: 'class',
-    image: studio,
+    image: '/studio.jpg',
     description: 'Keyboard training sessions'
   },
   {
     id: 3,
     title: 'Guitar Training',
     category: 'class',
-    image: studio,
+    image: '/studio.jpg',
     description: 'Guitar learning classes'
   },
   {
     id: 4,
     title: 'Vocal Training',
     category: 'class',
-    image: studio,
+    image: '/studio.jpg',
     description: 'Singing classes'
   },
 ];
