@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                     <h4 className="font-serif font-bold text-black mb-1">Address</h4>
                     <p className="text-gray-600">
                       Elite School of Indian Film Music<br />
-                      Mumbai, Maharashtra, India
+                      Kanakapura, Bangalore, India
                     </p>
                   </div>
                 </div>
