@@ -11,13 +11,16 @@ const Gallery = () => {
   const galleryImages = [
     { id: 1, title: 'Carnatic Vocals Class', category: 'Classes', src: './images/class-image.png' },
     { id: 2, title: 'Guitar Training', category: 'Classes', src: './images/krishna-sir.png' },
-    { id: 3, title: 'Student Performance', category: 'Events', src: './images/class-image.png' },
+    { id: 3, title: 'Student Performance', category: 'Events', src: './images/fourth.jpeg' },
     { id: 4, title: 'Keyboard Class', category: 'Classes', src: './images/class-image.png' },
-    { id: 5, title: 'Annual Concert', category: 'Events', src: './images/class-image.png' },
-    { id: 6, title: 'Recording Studio', category: 'Facilities', src: './images/studio.png' },
-    { id: 7, title: 'BSMB Performance', category: 'Band', src: './images/krishna-sir2.jpeg' },
-    { id: 8, title: 'Wedding Performance', category: 'Band', src: './images/concert.jpeg' },
-    { id: 9, title: 'Devotional Concert', category: 'Band', src: './images/class-image.png' },
+    { id: 5, title: 'Annual Concert', category: 'Events', src: './images/15.jpeg' },
+    { id: 6, title: 'Annual Concert', category: 'Events', src: './images/14.jpeg' },
+    { id: 7, title: 'Annual Concert', category: 'Events', src: './images/16.jpeg' },
+    { id: 8, title: 'Annual Concert', category: 'Events', src: './images/thirteen.jpeg' },
+    { id: 9, title: 'Recording Studio', category: 'Facilities', src: './images/studio.png' },
+    { id: 10, title: 'BSMB Performance', category: 'Band', src: './images/krishna-sir2.jpeg' },
+    { id: 11, title: 'Wedding Performance', category: 'Band', src: './images/concert.jpeg' },
+    { id: 12, title: 'Devotional Concert', category: 'Band', src: './images/marriage-concert.jpeg' },
   ];
 
   // Gallery Videos with your actual YouTube links
@@ -197,7 +200,7 @@ const Gallery = () => {
         <div className="container-lg">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '500+', label: 'Students Trained' },
+              { number: '1000+', label: 'Students Trained' },
               { number: '50+', label: 'Events Covered' },
               { number: '1000+', label: 'Photos in Gallery' },
               { number: '100+', label: 'Videos Published' },

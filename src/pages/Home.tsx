@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Hero } from '../components/Hero';
 import { CoursesSection } from '../components/CoursesSection';
-import { BSMBSection } from '../components/BSMBSection';
+import BSMBSection from '../components/BSMBSection';
 import { TestimonialCard } from '../components/TestimonialCard';
 import { TESTIMONIALS } from '../utils/constants';
 import { ArrowRight, Users, Trophy, Music } from 'lucide-react';
@@ -50,7 +50,7 @@ const Home = () => {
             >
               <div className="bg-gradient-to-br from-yellow-600 to-yellow-500 rounded-xl p-8 text-white shadow-lg">
                 <Users size={40} className="mb-4" />
-                <h3 className="text-3xl font-bold mb-2">500+</h3>
+                <h3 className="text-3xl font-bold mb-2">1000+</h3>
                 <p className="text-sm">Students Trained</p>
               </div>
               <div className="bg-gradient-to-br from-black to-gray-800 rounded-xl p-8 text-white shadow-lg">

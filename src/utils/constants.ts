@@ -81,7 +81,7 @@ export const TESTIMONIALS = [
     id: 2,
     name: 'Saptha Swaroop',
     role: 'Guitar Student',
-    message: 'The teacher creates a positive and comfortable learning environment.',
+    message: 'From basic chords to confident stage solos in months.',
     rating: 5,
   },
   {
@@ -91,6 +91,30 @@ export const TESTIMONIALS = [
     message: 'I can now play songs and understand music much better.',
     rating: 5,
   },
+  {
+    id: 4,
+    name: 'Shreyansh',
+    role: 'Keyboard & Guitar Student',
+    message: 'The teacher creates a positive and comfortable learning environment. I have improved my skills and confidence significantly.',
+    avatar: '/images/testimonials/priya.jpg',
+    rating: 5
+  },
+  {
+    id: 5,
+    name: 'Likhith',
+    role: 'Vocal & Keyboard Student',
+    message: 'From simple melodies to full arrangements and live performances.',
+    avatar: '/images/testimonials/priya.jpg',
+    rating: 5
+  },
+  {
+    id: 6,
+    name: 'Priya Menon',
+    role: 'Vocal Student',
+    message: 'Joining Elite School transformed my vocals and confidence. The instructors focused on both technique and performance — I landed my first studio recording within months.',
+    avatar: '/images/testimonials/priya.jpg',
+    rating: 5
+  }
 ];
 
 export const NAVIGATION = [
@@ -116,6 +140,26 @@ export const BSMB_BAND = {
   phone: PHONE,
   whatsapp: WHATSAPP_NUMBER,
 };
+
+export const BSMB_MEMBERS = [
+  {
+    id: 1,
+    name: 'Krishna Sir',
+    role: 'Keyboardist & Guitarist',
+    phone: PHONE, // +91-9686212053
+    email: EMAIL,
+    avatar: '/images/krishna-sir2.jpeg',
+    bio: 'Main keyboardist — arrangements, live leads and studio sessions.'
+  },
+  {
+    id: 2,
+    name: 'Vinay Sir',
+    role: 'Drummer',
+    phone: PHONE,
+    avatar: '/images/vinay-sir.jpeg',
+    bio: 'Lead drummer — rhythm section, percussion specialist for live shows.'
+  }
+];
 
 export const BAND_SERVICES = [
   {

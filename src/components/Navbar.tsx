@@ -13,6 +13,15 @@ export const Navbar = () => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}?text=${message}`, '_blank');
   };
 
+  const handleNavClick = () => {
+    setIsOpen(false);
+    // Scroll to top smoothly
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -23,7 +32,9 @@ export const Navbar = () => {
       <div className="container-lg">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Logo />
+          <Link to="/" onClick={handleNavClick}>
+            <Logo />
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
@@ -31,6 +42,7 @@ export const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.href}
+                onClick={handleNavClick}
                 className="font-medium text-gray-700 hover:text-yellow-600 transition-colors"
               >
                 {item.name}
@@ -71,7 +83,7 @@ export const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={handleNavClick}
                   className="font-medium text-gray-700 hover:text-yellow-600 transition-colors"
                 >
                   {item.name}
