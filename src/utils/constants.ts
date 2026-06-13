@@ -22,7 +22,7 @@ export const SCHOOL_NAME = 'Elite School of Indian Film Music';
 export const WHATSAPP_NUMBER = '+919686212053';
 export const WHATSAPP_MESSAGE = 'Hi, I am interested in joining Elite School of Indian Film Music.';
 export const EMAIL = 'choodegowdaap@gmail.com';
-export const PHONE = '+91-9686212053';
+export const PHONE = '9686212053';
 
 export const COURSES = [
   {
@@ -93,9 +93,9 @@ export const TESTIMONIALS = [
   },
   {
     id: 4,
-    name: 'Shreyansh',
+    name: 'Shrehansh Champi Bhat',
     role: 'Keyboard & Guitar Student',
-    message: 'The teacher creates a positive and comfortable learning environment. I have improved my skills and confidence significantly.',
+    message: 'The teacher creates a positive and comfortable learning environment. I have improved my skills and confidence.',
     avatar: '/images/testimonials/priya.jpg',
     rating: 5
   },
@@ -109,10 +109,9 @@ export const TESTIMONIALS = [
   },
   {
     id: 6,
-    name: 'Priya Menon',
+    name: 'Divya',
     role: 'Vocal Student',
-    message: 'Joining Elite School transformed my vocals and confidence. The instructors focused on both technique and performance — I landed my first studio recording within months.',
-    avatar: '/images/testimonials/priya.jpg',
+    message: 'Joining Elite School transformed my vocals and confidence. The instructors focused on my weaknesses.',
     rating: 5
   }
 ];
@@ -144,7 +143,7 @@ export const BSMB_BAND = {
 export const BSMB_MEMBERS = [
   {
     id: 1,
-    name: 'Krishna Sir',
+    name: 'Krishna',
     role: 'Keyboardist & Guitarist',
     phone: PHONE, // +91-9686212053
     email: EMAIL,
@@ -153,9 +152,9 @@ export const BSMB_MEMBERS = [
   },
   {
     id: 2,
-    name: 'Vinay Sir',
+    name: 'Vinay ',
     role: 'Drummer',
-    phone: PHONE,
+    phone: '7795335933',
     avatar: '/images/vinay-sir.jpeg',
     bio: 'Lead drummer — rhythm section, percussion specialist for live shows.'
   }
