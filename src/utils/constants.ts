@@ -152,9 +152,10 @@ export const BSMB_MEMBERS = [
   },
   {
     id: 2,
-    name: 'Vinay Aiyer',
+    name: 'Vinay Ayyar',
     role: 'Drummer',
     phone: '7795335933',
+    email: 'Vinayayyar777@gmail.com',
     avatar: '/images/vinay-sir.jpeg',
     bio: 'Lead drummer — rhythm section, percussion specialist for live shows.'
   }
