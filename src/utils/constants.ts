@@ -73,20 +73,20 @@ export const TESTIMONIALS = [
   {
     id: 1,
     name: 'Ravinandana H S',
-    role: 'Carnatic Vocals Student',
+    role: 'Keyboard & Carnatic Classical Student',
     message: 'Elite School has transformed my musical journey. The faculty is incredibly knowledgeable and supportive.',
     rating: 5,
   },
   {
     id: 2,
     name: 'Saptha Swaroop',
-    role: 'Guitar Student',
+    role: 'Guitar & Carnatic Classical Student',
     message: 'From basic chords to confident stage solos in months.',
     rating: 5,
   },
   {
     id: 3,
-    name: 'Hitesh',
+    name: 'Hitesh Dev',
     role: 'Keyboard Student',
     message: 'I can now play songs and understand music much better.',
     rating: 5,
@@ -101,7 +101,7 @@ export const TESTIMONIALS = [
   },
   {
     id: 5,
-    name: 'Likhith',
+    name: 'Likhith T.D',
     role: 'Vocal & Keyboard Student',
     message: 'From simple melodies to full arrangements and live performances.',
     avatar: '/images/testimonials/priya.jpg',
@@ -109,9 +109,9 @@ export const TESTIMONIALS = [
   },
   {
     id: 6,
-    name: 'Divya',
-    role: 'Vocal Student',
-    message: 'Joining Elite School transformed my vocals and confidence. The instructors focused on my weaknesses.',
+    name: 'Pallavi N',
+    role: 'Guitar & Keyboard Student',
+    message: 'Joining Elite School transformed my confidence. The instructors focused on my weaknesses.',
     rating: 5
   }
 ];
@@ -147,12 +147,12 @@ export const BSMB_MEMBERS = [
     role: 'Keyboardist & Guitarist',
     phone: PHONE, // +91-9686212053
     email: EMAIL,
-    avatar: '/images/krishna-sir2.jpeg',
+    avatar: '/images/krishna-sir-new.jpeg',
     bio: 'Main keyboardist — arrangements, live leads and studio sessions.'
   },
   {
     id: 2,
-    name: 'Vinay ',
+    name: 'Vinay Aiyer',
     role: 'Drummer',
     phone: '7795335933',
     avatar: '/images/vinay-sir.jpeg',

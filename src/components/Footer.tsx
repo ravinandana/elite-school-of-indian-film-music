@@ -63,10 +63,10 @@ export const Footer = () => {
                 Professional music education and concert services.
               </p>
               <div className="flex gap-4">
-                <a href={SOCIAL_LINKS[1].url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
+                <a href={SOCIAL_LINKS[0].url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
                   <Facebook size={24} />
                 </a>
-                <a href={SOCIAL_LINKS[0].url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
+                <a href={SOCIAL_LINKS[1].url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
                   <Instagram size={24} />
                 </a>
                 <a href={SOCIAL_LINKS[2].url} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">

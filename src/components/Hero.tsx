@@ -114,11 +114,11 @@ export const Hero = () => {
           className="grid grid-cols-3 gap-4 md:gap-8 mt-16 pt-8 border-t border-gray-700"
         >
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-yellow-600">500+</p>
+            <p className="text-3xl md:text-4xl font-bold text-yellow-600">1000+</p>
             <p className="text-gray-300 text-sm">Students Trained</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-yellow-600">50+</p>
+            <p className="text-3xl md:text-4xl font-bold text-yellow-600">5+</p>
             <p className="text-gray-300 text-sm">Courses Offered</p>
           </div>
           <div className="text-center">
